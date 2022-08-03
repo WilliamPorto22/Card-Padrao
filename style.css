@@ -10,25 +10,6 @@ body {
     margin: 0 auto;
 }
 
-/* erro 1 */
-
-/* .fa-instagram:before {
-    content: src="insta.jpg";
-}
-.fa-instagram:before {
-    content: "\f16d";
-}
-.fa-dribbble:before {
-    content: "\f17d";
-}
-.fa-twitter:before {
-    content: "\f099";
-}
-.fa-facebook:before {
-    content: "\f09a";
-} */
-
-
 @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
@@ -56,6 +37,7 @@ body {
     width: 290px;
     height: var(--card-height);
     position: relative;
+    transition: background 0.8s;
     border-radius: 6px;
 }
 .card:hover {
@@ -106,12 +88,16 @@ body {
 .card:hover .fa {
     opacity: 1;
 }
+.div-icons{
+    display: flex;
+    margin-left: 20px;
+}
 
 h2 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #000;
+    color: #1e1f26;
     opacity: 0;
-    font-size: medium;
+    font-size: 30px;
     transition: opacity 2s;
     overflow: hidden;
 }
@@ -134,4 +120,21 @@ h2 {
     justify-content: space-around;
 }
 
+/* erro 1 */
+
+/* .fa-instagram:before {
+    content: src="insta.jpg";
+}
+.fa-instagram:before {
+    content: "\f16d";
+}
+.fa-dribbble:before {
+    content: "\f17d";
+}
+.fa-twitter:before {
+    content: "\f099";
+}
+.fa-facebook:before {
+    content: "\f09a";
+} */
 
