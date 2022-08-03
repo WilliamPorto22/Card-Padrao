@@ -53,7 +53,7 @@ body {
 .card {
     background: url(WilliamPorto.jpg) center center no-repeat;
     background-size: 365px;
-    width: var(--card-width);
+    width: 290px;
     height: var(--card-height);
     position: relative;
     border-radius: 6px;
