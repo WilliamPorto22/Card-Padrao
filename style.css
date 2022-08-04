@@ -81,7 +81,7 @@ body {
 
 }
 
-.card:hover h2 {
+.card:hover h3 {
     opacity: 1;
 }
 
@@ -93,7 +93,7 @@ body {
     margin-left: 20px;
 }
 
-h2 {
+h3 {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     color: #1e1f26;
     opacity: 0;
