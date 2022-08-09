@@ -10,6 +10,11 @@ body {
     margin: 0 auto;
 }
 
+img{
+    width: 25px;
+}
+
+
 @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
@@ -119,22 +124,4 @@ h3 {
     align-items: center;
     justify-content: space-around;
 }
-
-/* erro 1 */
-
-/* .fa-instagram:before {
-    content: src="insta.jpg";
-}
-.fa-instagram:before {
-    content: "\f16d";
-}
-.fa-dribbble:before {
-    content: "\f17d";
-}
-.fa-twitter:before {
-    content: "\f099";
-}
-.fa-facebook:before {
-    content: "\f09a";
-} */
 
