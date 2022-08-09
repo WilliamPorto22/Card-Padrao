@@ -14,7 +14,6 @@ img{
     width: 25px;
 }
 
-
 @property --rotate {
     syntax: "<angle>";
     initial-value: 132deg;
@@ -83,9 +82,7 @@ img{
 .card:hover:after{
     background: none;
     transition: opacity 2s;
-
 }
-
 .card:hover h3 {
     opacity: 1;
 }
