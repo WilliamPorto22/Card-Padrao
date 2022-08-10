@@ -10,24 +10,21 @@ body {
     margin: 0 auto;
 }
 
+h3 {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    color: #1e1f26;
+    opacity: 0;
+    font-size: 30px;
+    transition: opacity 2s;
+    overflow: hidden;
+}
+
 img{
-    width: 25px;
+    width: 28px;
 }
 
-@property --rotate {    
-    syntax: "<angle>";
-    initial-value: 132deg;
-    inherits: false;
-}
-
-@keyframes spin {
-    0% {
-        --rotate: 0deg;
-    }
-
-    100% {
-        --rotate: 360deg;
-    }
+img:hover{
+    width: 32px;
 }
 
 :root {
@@ -36,7 +33,7 @@ img{
 }
 
 .card {
-    background: url(WilliamPorto.jpg) center center no-repeat;
+    background: url(/Img/WilliamPorto.jpg) center center no-repeat;
     background-size: 365px;
     width: 290px;
     height: var(--card-height);
@@ -45,7 +42,7 @@ img{
     border-radius: 6px;
 }
 .card:hover {
-    background: url("WilliamPorto.jpg") left top no-repeat;
+    background: url("/Img/WilliamPorto.jpg") left top no-repeat;
     background-size: 598px;
 }
 
@@ -95,15 +92,6 @@ img{
     margin-left: 20px;
 }
 
-h3 {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #1e1f26;
-    opacity: 0;
-    font-size: 30px;
-    transition: opacity 2s;
-    overflow: hidden;
-}
-
 .fa {
     opacity: 0;
     transition: opacity 1s;
@@ -122,3 +110,18 @@ h3 {
     justify-content: space-around;
 }
 
+@property --rotate {    
+    syntax: "<angle>";
+    initial-value: 132deg;
+    inherits: false;
+}
+
+@keyframes spin {
+    0% {
+        --rotate: 0deg;
+    }
+
+    100% {
+        --rotate: 360deg;
+    }
+}
