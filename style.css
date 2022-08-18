@@ -1,13 +1,11 @@
 body {
     background-color: #1e1f26;
-    max-height: 800px;
-    max-width: 1280px;
-    min-height: 600px;
-    min-width: 1000px;
+    height: 100vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     margin: 0 auto;
+    flex-direction: column;
 }
 
 h3 {
@@ -38,7 +36,7 @@ img:hover{
     width: 290px;
     height: var(--card-height);
     position: relative;
-    transition: background 0.8s;
+    transition: 0.8s;
     border-radius: 6px;
 }
 .card:hover {
